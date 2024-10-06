@@ -14,12 +14,12 @@
     "express": "^4.21.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.6.2",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
+    "webpack": "^5.95.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/express": "^5.0.0",
-    "@types/node": "^22.7.4"
+    "@types/node": "^22.7.4",
+    "webpack-cli": "^5.1.4"
   }
 }
