@@ -49,7 +49,7 @@ def main():
     # 모델의 임베딩 레이어 크기 조정
     model.resize_token_embeddings(len(tokenizer))
 
-    file_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/data2.json"
+    file_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/data3.json"
 
     # 학습 데이터 로드
     try:
@@ -79,7 +79,7 @@ def main():
 
     # Trainer를 위한 인수 설정
     training_args = TrainingArguments(
-        output_dir="./results2",
+        output_dir="./results3",
         evaluation_strategy="epoch",
         eval_steps=100,
         save_strategy="epoch",
@@ -117,8 +117,8 @@ if __name__ == '__main__':
         trainer.train()
         
         # 모델 저장
-        model.save_pretrained("./two/my_model")
-        tokenizer.save_pretrained("./two/my_model")
+        model.save_pretrained("./three/my_model")
+        tokenizer.save_pretrained("./three/my_model")
 
 
 
