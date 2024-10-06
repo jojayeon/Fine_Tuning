@@ -10,10 +10,10 @@ submitButton.addEventListener('click', async () => {
     const question = inputElement.value;
     if (question) {
         try {
-            const response = await axios.post('http://localhost:3000/api/question', { question });
+            const response = await axios.post('http://ec2-13-209-48-72.ap-northeast-2.compute.amazonaws.com:8000/api/question', { question });
             const answer = response.data.answer;
             const responseElement = document.createElement('div');
-            responseElement.textContent = `질문자: ${question} - LLama: ${answer}`;
+            responseElement.textContent = `Q: ${question} - A: ${answer}`;
             responseContainer.appendChild(responseElement);
             inputElement.value = ''; // 입력 필드 초기화
         } catch (error) {

@@ -2,8 +2,23 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
+
+origins = [
+    "http://localhost:3000",  # 개발 중인 로컬 주소
+    "https://myaillama.s3.ap-northeast-2.amazonaws.com",  # S3 호스팅 주소
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # 모든 도메인에서 접근 허용
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # 모델과 토크나이저 로드
 model_path = "C:/Users/USER/Fine_Tuning/PY_Learning/two/my_model"

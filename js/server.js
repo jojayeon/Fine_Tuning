@@ -14,7 +14,7 @@ app.post('/api/question', async (req, res) => {
 
     try {
         // FastAPI 서버로 질문 전송
-        const response = await axios.post('http://localhost:8000/api/question', { question });
+        const response = await axios.post('https://ec2-13-209-48-72.ap-northeast-2.compute.amazonaws.com', { question });
         const answer = response.data.answer; // FastAPI의 응답에서 answer 추출
 
         // 클라이언트에 응답
