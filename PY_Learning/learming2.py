@@ -122,16 +122,16 @@ if __name__ == '__main__':
 
 
 
-# 용량 부족할때 적장만 하는 코드
-from transformers import AutoModelForCausalLM, AutoTokenizer
+# # 용량 부족할때 적장만 하는 코드
+# from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# 모델과 토크나이저 로드
-model_id = "meta-llama/Llama-3.2-1B"
-model = AutoModelForCausalLM.from_pretrained(model_id)
-tokenizer = AutoTokenizer.from_pretrained(model_id)
+# # 모델과 토크나이저 로드
+# model_id = "meta-llama/Llama-3.2-1B"
+# model = AutoModelForCausalLM.from_pretrained(model_id)
+# tokenizer = AutoTokenizer.from_pretrained(model_id)
 
-# 학습된 모델 저장
-model.save_pretrained("./two/my_model")
-tokenizer.save_pretrained("./two/my_model")
+# # 학습된 모델 저장
+# model.save_pretrained("./two/my_model")
+# tokenizer.save_pretrained("./two/my_model")
 
-print("모델 저장 완료!")
+# print("모델 저장 완료!")
