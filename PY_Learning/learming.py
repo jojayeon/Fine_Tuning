@@ -102,8 +102,8 @@ trainer = Trainer(
 trainer.train()
 
 # 모델 저장
-model.save_pretrained("./tow/my_model")
-tokenizer.save_pretrained("./tow/my_model")
+model.save_pretrained("./one/my_model")
+tokenizer.save_pretrained("./one/my_model")
 
 if __name__ == '__main__':
     import multiprocessing
