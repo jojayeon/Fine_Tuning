@@ -1,7 +1,8 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 # 모델과 토크나이저 로드
-model_path = "C:/Users/USER/Fine_Tuning/PY_Learning/two/my_model"
+# model_path = "C:/Users/USER/Fine_Tuning/PY_Learning/two/my_model"
+model_path = "C:/Users/Administrator/jojayeon/Fine_Tuning/PY_Learning/two/my_model"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path)
 
