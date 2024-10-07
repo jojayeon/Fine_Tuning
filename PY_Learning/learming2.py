@@ -9,7 +9,7 @@ from transformers.trainer_callback import TrainerCallback
 
 # 메모리 및 디스크 사용량 모니터링을 위한 콜백 클래스
 class ResourceMonitorCallback(TrainerCallback):
-    def __init__(self, memory_limit=90, disk_limit=90):
+    def __init__(self, memory_limit=50, disk_limit=50):
         self.memory_limit = memory_limit
         self.disk_limit = disk_limit
 
@@ -49,8 +49,8 @@ def main():
     # 모델의 임베딩 레이어 크기 조정
     model.resize_token_embeddings(len(tokenizer))
 
-    file_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/data3.json"
-
+    # file_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/data3.json"
+    file_path = "C:/Users/Administrator/jojayeon/Fine_Tuning/PY_Learning/data/data3.json"
     # 학습 데이터 로드
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -81,16 +81,16 @@ def main():
     training_args = TrainingArguments(
         output_dir="./results3",
         evaluation_strategy="epoch",
-        eval_steps=100,
+        eval_steps=80,
         save_strategy="epoch",
         learning_rate=2e-5,
-        per_device_train_batch_size=2,
-        per_device_eval_batch_size=2,
-        num_train_epochs=3,
-        gradient_accumulation_steps=8,
+        per_device_train_batch_size=1,
+        per_device_eval_batch_size=1,
+        num_train_epochs=2,
+        gradient_accumulation_steps=4,
         dataloader_num_workers=0,  # 멀티프로세싱 비활성화
         load_best_model_at_end=True,
-        fp16=True if torch.cuda.is_available() else False,
+        fp16=True,
         optim="adamw_torch",
         report_to="none",
     )
