@@ -19,11 +19,11 @@ class ResourceMonitorCallback(TrainerCallback):
 
         if memory_percent > self.memory_limit:
             print(f"메모리 사용량이 {self.memory_limit}%를 초과했습니다. 현재 사용량: {memory_percent}%")
-            time.sleep(10)  # 10초 대기
+            time.sleep(5)  # 10초 대기
 
         if disk_percent > self.disk_limit:
             print(f"디스크 사용량이 {self.disk_limit}%를 초과했습니다. 현재 사용량: {disk_percent}%")
-            time.sleep(10)  # 10초 대기
+            time.sleep(5)  # 10초 대기
 
 def main():
     # GPU 사용 가능 여부 확인
@@ -63,14 +63,21 @@ def main():
     def preprocess_function(examples):
         inputs = examples['input']
         targets = examples['output']
-        model_inputs = tokenizer(inputs, max_length=128, truncation=True, padding="max_length")
-        labels = tokenizer(targets, max_length=128, truncation=True, padding="max_length")
-        model_inputs["labels"] = labels["input_ids"]
+        labels = examples['label']  # 라벨 추가
+
+        # 라벨을 입력에 포함하여 처리
+        model_inputs = tokenizer(inputs + " " + labels, max_length=128, truncation=True, padding="max_length")
+        target_inputs = tokenizer(targets, max_length=128, truncation=True, padding="max_length")
+
+        model_inputs["labels"] = target_inputs["input_ids"]  # 타겟을 레이블로 설정
         return model_inputs
 
     # 데이터셋 생성
-    dataset = Dataset.from_dict({"input": [item["input"] for item in train_data],
-                                "output": [item["output"] for item in train_data]})
+    dataset = Dataset.from_dict({
+        "input": [item["input"] for item in train_data],
+        "output": [item["output"] for item in train_data],
+        "label": [item["label"] for item in train_data]  # 라벨도 포함
+    })
 
     # 학습 데이터와 평가 데이터 분할
     train_test_dataset = dataset.train_test_split(test_size=0.2, seed=42)
