@@ -79,22 +79,29 @@ def main():
 
     # Trainer를 위한 인수 설정
     training_args = TrainingArguments(
-        output_dir="./results3",
-        evaluation_strategy="epoch",
-        eval_steps=80,
-        save_strategy="epoch",
-        learning_rate=2e-5,
-        per_device_train_batch_size=1,
-        per_device_eval_batch_size=1,
-        num_train_epochs=2,
-        gradient_accumulation_steps=4,
-        dataloader_num_workers=0,  # 멀티프로세싱 비활성화
-        load_best_model_at_end=True,
-        fp16=True,
-        optim="adamw_torch",
-        report_to="none",
-    )
-
+    output_dir="./results3",
+    evaluation_strategy="epoch",
+    eval_steps=100,  # 평가 주기 변경
+    save_strategy="epoch",
+    learning_rate=3e-5,  # 학습률 증가
+    per_device_train_batch_size=1,  # 배치 크기 증가
+    per_device_eval_batch_size=1,
+    num_train_epochs=3,  # 에폭 수 증가
+    gradient_accumulation_steps=8,  # 그래디언트 누적 단계 증가
+    dataloader_num_workers=0,
+    load_best_model_at_end=True,
+    fp16=True,  
+    optim="adamw_torch",
+    report_to="none",
+    warmup_steps=200,  # warmup_steps 조정
+    weight_decay=0.01,
+    save_total_limit=3,
+    logging_dir="./logs",
+    logging_steps=50,
+    label_smoothing_factor=0.1,
+    adam_epsilon=1e-8,
+    gradient_checkpointing=True,
+)
     # Trainer 객체 생성
     trainer = Trainer(
         model=model,
