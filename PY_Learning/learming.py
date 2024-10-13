@@ -66,7 +66,7 @@ def main():
         labels = examples['label']  # 라벨 추가
 
         # 라벨을 입력에 포함하여 처리
-        model_inputs = tokenizer(inputs + " " + labels, max_length=128, truncation=True, padding="max_length")
+        model_inputs = tokenizer(inputs + " " + labels, max_length=256, truncation=True, padding="max_length")
         target_inputs = tokenizer(targets, max_length=128, truncation=True, padding="max_length")
 
         model_inputs["labels"] = target_inputs["input_ids"]  # 타겟을 레이블로 설정
@@ -90,10 +90,10 @@ def main():
     evaluation_strategy="epoch",
     eval_steps=100,  # 평가 주기 변경
     save_strategy="epoch",
-    learning_rate=3e-5,  # 학습률 증가
-    per_device_train_batch_size=1,  # 배치 크기 증가
-    per_device_eval_batch_size=1,
-    num_train_epochs=3,  # 에폭 수 증가
+    learning_rate=5e-6,  # 학습률 증가
+    per_device_train_batch_size=2,  # 배치 크기 증가
+    per_device_eval_batch_size=2,
+    num_train_epochs=10,  # 에폭 수 증가
     gradient_accumulation_steps=8,  # 그래디언트 누적 단계 증가
     dataloader_num_workers=0,
     load_best_model_at_end=True,
@@ -108,14 +108,24 @@ def main():
     label_smoothing_factor=0.1,
     adam_epsilon=1e-8,
     gradient_checkpointing=True,
+    max_grad_norm=1.0,
+    lr_scheduler_type="linear",
 )
+    optimizer = AdamW(model.parameters(), lr=1e-5)
+    num_training_steps = len(train_dataset) * training_args.num_train_epochs
+    scheduler = get_linear_schedule_with_warmup(
+        optimizer,
+        num_warmup_steps=200,  # warmup_steps와 일치시킵니다
+        num_training_steps=num_training_steps
+    )
     # Trainer 객체 생성
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
-        callbacks=[ResourceMonitorCallback()]
+        callbacks=[ResourceMonitorCallback()],
+        optimizers=(optimizer, scheduler)
     )
 
     return trainer, model, tokenizer
