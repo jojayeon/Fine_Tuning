@@ -1,9 +1,9 @@
-from transformers import LlamaForCausalLM, LlamaTokenizer
+from transformers import PreTrainedTokenizerFast , 
 import torch
 
 # 모델과 토크나이저 로드
 model_name = "meta-llama/Llama-3.2-1B"  # 사용하고자 하는 모델 이름
-tokenizer = LlamaTokenizer.from_pretrained(model_name)
+tokenizer = PreTrainedTokenizerFast.from_pretrained(model_name)
 model = LlamaForCausalLM.from_pretrained(model_name)
 
 # 모델을 평가 모드로 전환
