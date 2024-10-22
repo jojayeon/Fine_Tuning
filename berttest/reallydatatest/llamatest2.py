@@ -2,6 +2,8 @@ import json
 import torch
 from transformers import PreTrainedTokenizerFast, LlamaForSequenceClassification, Trainer, TrainingArguments
 from torch.utils.data import Dataset
+from transformers import TrainerCallback
+
 
 # CustomDataset 클래스 정의
 class CustomDataset(Dataset):
@@ -33,7 +35,7 @@ class CustomDataset(Dataset):
         }
 
 # 데이터셋 경로 설정
-data_path = 'data/dataset.json'  # 데이터셋 파일 경로
+data_path = "C:/Users/Administrator/jojayeon/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
 dataset = CustomDataset(data_path)  # 데이터셋 인스턴스 생성
 
 # 모델 초기화
@@ -47,7 +49,7 @@ training_args = TrainingArguments(
     num_train_epochs=1,
     logging_dir='logs',
     logging_steps=10,  # 손실 값을 10 스텝마다 로그에 기록
-    evaluation_strategy='steps',  # 평가 전략을 스텝으로 변경
+    eval_strategy='steps',  # 평가 전략을 스텝으로 변경
     eval_steps=10,  # 평가를 10 스텝마다 수행
     save_total_limit=1,
 )
