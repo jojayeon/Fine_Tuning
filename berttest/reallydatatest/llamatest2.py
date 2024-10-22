@@ -45,13 +45,17 @@ model.resize_token_embeddings(len(dataset.tokenizer))  # 임베딩 크기 조정
 # 학습 설정
 training_args = TrainingArguments(
     output_dir='result',
-    per_device_train_batch_size=1,
-    num_train_epochs=1,
+    per_device_train_batch_size=1,  # 배치 크기
+    num_train_epochs=5,  # 에폭 수
+    learning_rate=5e-5,  # 학습률
+    weight_decay=0.01,  # 가중치 감소
+    gradient_accumulation_steps=4,  # 그래디언트 누적 스텝
     logging_dir='logs',
-    logging_steps=10,  # 손실 값을 10 스텝마다 로그에 기록
-    eval_strategy='steps',  # 평가 전략을 스텝으로 변경
-    eval_steps=10,  # 평가를 10 스텝마다 수행
-    save_total_limit=1,
+    logging_steps=100,  # 100 스텝마다 로깅
+    eval_strategy='steps',  # 평가 전략
+    eval_steps=100,  # 평가 스텝
+    load_best_model_at_end=True,  # 최상의 모델 로드
+    metric_for_best_model='accuracy',  # 최상의 모델 판단 기준
 )
 
 # 로깅 콜백 클래스 정의
