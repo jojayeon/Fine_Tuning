@@ -35,7 +35,8 @@ class CustomDataset(Dataset):
         }
 
 # 데이터셋 경로 설정
-data_path = "C:/Users/Administrator/jojayeon/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
+# data_path = "C:/Users/Administrator/jojayeon/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
+data_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
 dataset = CustomDataset(data_path)  # 데이터셋 인스턴스 생성
 
 # 모델 초기화
