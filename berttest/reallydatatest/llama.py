@@ -4,7 +4,6 @@ from transformers import PreTrainedTokenizerFast, LlamaForSequenceClassification
 from torch.utils.data import Dataset
 from transformers import TrainerCallback
 
-
 # CustomDataset 클래스 정의
 class CustomDataset(Dataset):
     def __init__(self, filepath):
@@ -35,8 +34,8 @@ class CustomDataset(Dataset):
         }
 
 # 데이터셋 경로 설정
-# data_path = "C:/Users/Administrator/jojayeon/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
-data_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
+# data_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
+data_path = "C:/Users/Administrator/jojayeon/Fine_Tuning/PY_Learning/data/reallydata.json"  # 데이터셋 파일 경로
 dataset = CustomDataset(data_path)  # 데이터셋 인스턴스 생성
 
 # 모델 초기화
@@ -47,10 +46,11 @@ model.resize_token_embeddings(len(dataset.tokenizer))  # 임베딩 크기 조정
 training_args = TrainingArguments(
     output_dir='result',
     per_device_train_batch_size=1,  # 배치 크기
+    per_device_eval_batch_size=1,  # 평가 배치 크기 추가 (GPU 사용)
     num_train_epochs=5,  # 에폭 수
     learning_rate=5e-5,  # 학습률
     weight_decay=0.01,  # 가중치 감소
-    gradient_accumulation_steps=4,  # 그래디언트 누적 스텝
+    gradient_accumulation_steps=8,  # 그래디언트 누적 스텝
     logging_dir='logs',
     logging_steps=100,  # 100 스텝마다 로깅
     eval_strategy='steps',  # 평가 전략
