@@ -3,8 +3,8 @@ import torch
 from transformers import PreTrainedTokenizerFast, LlamaForSequenceClassification
 
 # 학습된 모델 경로 및 데이터셋 경로
-model_path = 'result'
-data_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/reallydata.json"
+model_path = 'C:/Users/Administrator/jojayeon/Fine_Tuning/berttest/result/checkpoint-50'
+# data_path = "C:/Users/USER/Fine_Tuning/PY_Learning/data/reallydata.json"
 
 # Llama 토크나이저 초기화 (PreTrainedTokenizerFast 사용)
 tokenizer = PreTrainedTokenizerFast.from_pretrained(model_path)
