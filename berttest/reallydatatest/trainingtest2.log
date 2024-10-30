@@ -1,0 +1,62 @@
+2024-10-30 17:18:33,849 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 17:18:39,872 - INFO - Model initialized successfully.
+2024-10-30 17:18:41,630 - INFO - GPU 사용 중: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:18:41,630 - INFO - 총 GPU 수: 1
+2024-10-30 17:18:41,630 - INFO - 현재 GPU 인덱스: 0
+2024-10-30 17:18:41,630 - INFO - 현재 GPU 이름: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:18:41,630 - INFO - 현재 GPU 메모리 사용량: 4716.28 MB
+2024-10-30 17:18:41,669 - INFO - GPU 0 - 메모리 사용량: 3887.0MB / 4096.0MB
+2024-10-30 17:18:48,674 - ERROR - Error during training: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 10.90 GiB is allocated by PyTorch, and 32.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 17:29:09,912 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 17:29:16,046 - INFO - Model initialized successfully.
+2024-10-30 17:29:17,885 - INFO - GPU 사용 중: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:29:17,885 - INFO - 총 GPU 수: 1
+2024-10-30 17:29:17,885 - INFO - 현재 GPU 인덱스: 0
+2024-10-30 17:29:17,886 - INFO - 현재 GPU 이름: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:29:17,886 - INFO - 현재 GPU 메모리 사용량: 4716.28 MB
+2024-10-30 17:29:17,932 - INFO - GPU 0 - 메모리 사용량: 3856.0MB / 4096.0MB
+2024-10-30 17:29:24,311 - ERROR - Error during training: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 10.90 GiB is allocated by PyTorch, and 32.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 17:31:19,132 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 17:31:24,863 - INFO - Model initialized successfully.
+2024-10-30 17:31:26,538 - INFO - GPU 사용 중: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:31:26,538 - INFO - 총 GPU 수: 1
+2024-10-30 17:31:26,538 - INFO - 현재 GPU 인덱스: 0
+2024-10-30 17:31:26,538 - INFO - 현재 GPU 이름: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:31:26,538 - INFO - 현재 GPU 메모리 사용량: 4716.28 MB
+2024-10-30 17:31:26,580 - INFO - GPU 0 - 메모리 사용량: 3877.0MB / 4096.0MB
+2024-10-30 17:32:35,561 - INFO - Epoch 1.0 completed
+2024-10-30 17:32:35,589 - INFO - GPU 사용 중: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:32:35,590 - INFO - 총 GPU 수: 1
+2024-10-30 17:32:35,594 - INFO - 현재 GPU 인덱스: 0
+2024-10-30 17:32:35,594 - INFO - 현재 GPU 이름: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:32:35,600 - INFO - 현재 GPU 메모리 사용량: 0.00 MB
+2024-10-30 17:32:35,975 - INFO - GPU 0 - 메모리 사용량: 355.0MB / 4096.0MB
+2024-10-30 17:34:21,456 - INFO - Epoch 2.0 completed
+2024-10-30 17:34:21,467 - INFO - GPU 사용 중: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:34:21,468 - INFO - 총 GPU 수: 1
+2024-10-30 17:34:21,473 - INFO - 현재 GPU 인덱스: 0
+2024-10-30 17:34:21,473 - INFO - 현재 GPU 이름: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:34:21,477 - INFO - 현재 GPU 메모리 사용량: 0.00 MB
+2024-10-30 17:34:21,618 - INFO - GPU 0 - 메모리 사용량: 443.0MB / 4096.0MB
+2024-10-30 17:37:54,623 - INFO - Epoch 3.0 completed
+2024-10-30 17:37:54,636 - INFO - GPU 사용 중: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:37:54,636 - INFO - 총 GPU 수: 1
+2024-10-30 17:37:54,636 - INFO - 현재 GPU 인덱스: 0
+2024-10-30 17:37:54,637 - INFO - 현재 GPU 이름: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:37:54,642 - INFO - 현재 GPU 메모리 사용량: 0.00 MB
+2024-10-30 17:37:54,745 - INFO - GPU 0 - 메모리 사용량: 367.0MB / 4096.0MB
+2024-10-30 17:37:54,756 - INFO - GPU 사용 중: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:37:54,757 - INFO - 총 GPU 수: 1
+2024-10-30 17:37:54,758 - INFO - 현재 GPU 인덱스: 0
+2024-10-30 17:37:54,758 - INFO - 현재 GPU 이름: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:37:54,758 - INFO - 현재 GPU 메모리 사용량: 0.00 MB
+2024-10-30 17:37:54,788 - INFO - GPU 0 - 메모리 사용량: 367.0MB / 4096.0MB
+2024-10-30 17:37:54,788 - INFO - Step 0: train_runtime - 385.5598
+2024-10-30 17:37:54,788 - INFO - Step 0: train_samples_per_second - 0.062
+2024-10-30 17:37:54,788 - INFO - Step 0: train_steps_per_second - 0.008
+2024-10-30 17:37:54,789 - INFO - Step 0: total_flos - 8968552316928.0
+2024-10-30 17:37:54,789 - INFO - Step 0: train_loss - 3.104334831237793
+2024-10-30 17:37:54,789 - INFO - Step 0: epoch - 3.0
+2024-10-30 17:37:56,700 - INFO - Training progress graph saved as 'training_progress.png'
+2024-10-30 17:37:56,703 - INFO - Training completed successfully.
+2024-10-30 17:38:56,750 - INFO - Model saved successfully.

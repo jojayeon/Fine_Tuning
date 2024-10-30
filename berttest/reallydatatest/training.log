@@ -161,3 +161,85 @@
 2024-10-30 13:35:18,634 - INFO - ï¿½ï¿½ï¿½ï¿½ GPU ï¿½Ì¸ï¿½: NVIDIA GeForce RTX 3060
 2024-10-30 13:35:18,634 - INFO - ï¿½ï¿½ï¿½ï¿½ GPU ï¿½Þ¸ï¿½ ï¿½ï¿½ë·®: 4945379840 bytes
 2024-10-30 13:35:30,856 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.44 GiB is allocated by PyTorch, and 27.16 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 15:29:47,963 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 15:29:48,210 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 15:29:48,584 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 15:29:48,786 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 15:29:49,009 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 15:29:55,194 - INFO - Model initialized successfully.
+2024-10-30 15:29:57,236 - INFO - GPU ï¿½ï¿½ï¿½ ï¿½ï¿½: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 15:29:57,238 - INFO - ï¿½ï¿½ GPU ï¿½ï¿½: 1
+2024-10-30 15:29:57,238 - INFO - ï¿½ï¿½ï¿½ï¿½ GPU ï¿½Îµï¿½ï¿½ï¿½: 0
+2024-10-30 15:29:57,238 - INFO - ï¿½ï¿½ï¿½ï¿½ GPU ï¿½Ì¸ï¿½: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 15:29:57,239 - INFO - ï¿½ï¿½ï¿½ï¿½ GPU ï¿½Þ¸ï¿½ ï¿½ï¿½ë·®: 4945379840 bytes
+2024-10-30 15:30:05,175 - ERROR - Error during training: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 10.90 GiB is allocated by PyTorch, and 32.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 16:13:24,518 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 16:13:24,754 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:13:25,231 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 16:14:34,805 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 16:14:35,043 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:14:35,395 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 16:15:25,622 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 16:15:25,891 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:15:26,250 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 16:15:26,250 - ERROR - Error initializing and quantizing model: name 'LlamaForSequenceClassification' is not defined
+2024-10-30 16:16:24,523 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 16:16:24,761 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:16:25,109 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 16:16:25,314 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:16:25,521 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:16:25,725 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:16:25,941 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:16:26,145 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:16:26,352 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:16:26,565 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:16:26,852 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:16:27,064 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:16:27,262 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:16:27,470 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:16:27,672 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:16:30,953 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:16:31,363 - ERROR - Error initializing and quantizing model: Could not infer the pad token id, which is needed in this case, please provide it with the --pad_token_id argument
+2024-10-30 16:19:14,351 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 16:19:14,612 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:19:14,961 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 16:19:15,168 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:19:15,363 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:19:15,594 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:19:15,796 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:19:15,998 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:19:16,204 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:19:16,398 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:19:16,622 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:19:16,834 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:19:17,031 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:19:17,252 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:19:17,455 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:19:18,787 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:19:19,152 - ERROR - Error initializing and quantizing model: Could not infer the pad token id, which is needed in this case, please provide it with the --pad_token_id argument
+2024-10-30 16:21:30,501 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 16:21:30,746 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:21:31,088 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 16:21:31,293 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:21:31,498 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:21:32,692 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:21:32,899 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:21:33,099 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:21:33,307 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:21:33,505 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:21:33,707 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:21:33,950 - DEBUG - https://huggingface.co:443 "GET /api/models/meta-llama/Llama-3.2-1B/tree/main?recursive=True&expand=False HTTP/11" 200 1820
+2024-10-30 16:21:34,151 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:21:34,349 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:21:34,568 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 16:21:35,895 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 16:21:36,295 - ERROR - Error initializing and quantizing model: Could not infer the pad token id, which is needed in this case, please provide it with the --pad_token_id argument
+2024-10-30 17:16:52,251 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 17:16:59,361 - INFO - Model initialized successfully.
+2024-10-30 17:17:01,373 - INFO - GPU »ç¿ë Áß: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:17:01,374 - INFO - ÃÑ GPU ¼ö: 1
+2024-10-30 17:17:01,374 - INFO - ÇöÀç GPU ÀÎµ¦½º: 0
+2024-10-30 17:17:01,374 - INFO - ÇöÀç GPU ÀÌ¸§: NVIDIA GeForce GTX 1050 Ti
+2024-10-30 17:17:01,375 - INFO - ÇöÀç GPU ¸Þ¸ð¸® »ç¿ë·®: 4716.28 MB
+2024-10-30 17:17:01,416 - INFO - GPU 0 - ¸Þ¸ð¸® »ç¿ë·®: 3862.0MB / 4096.0MB
+2024-10-30 17:17:09,161 - ERROR - Error during training: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 10.90 GiB is allocated by PyTorch, and 32.29 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
