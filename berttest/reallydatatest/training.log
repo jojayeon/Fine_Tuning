@@ -1,0 +1,163 @@
+2024-10-30 13:08:57,052 - INFO - Model initialized successfully.
+2024-10-30 13:08:58,042 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:08:58,042 - INFO - �� GPU ��: 1
+2024-10-30 13:08:58,042 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:08:58,042 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:08:58,042 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:09:14,805 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 35.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:12:02,769 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:12:03,021 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:12:03,332 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:12:03,536 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:12:03,735 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:12:11,809 - INFO - Model initialized successfully.
+2024-10-30 13:12:12,862 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:12:12,862 - INFO - �� GPU ��: 1
+2024-10-30 13:12:12,862 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:12:12,863 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:12:12,863 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:12:17,025 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 45.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:13:49,500 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:13:49,724 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:13:50,049 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:13:50,256 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:13:50,461 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:13:55,495 - INFO - Model initialized successfully.
+2024-10-30 13:13:56,545 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:13:56,545 - INFO - �� GPU ��: 1
+2024-10-30 13:13:56,545 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:13:56,545 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:13:56,546 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:14:01,329 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 19.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:14:16,148 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:14:16,360 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:14:16,685 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:14:16,881 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:14:17,082 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:14:22,202 - INFO - Model initialized successfully.
+2024-10-30 13:14:23,215 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:14:23,215 - INFO - �� GPU ��: 1
+2024-10-30 13:14:23,215 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:14:23,215 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:14:23,215 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:14:28,064 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 19.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:15:48,001 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:15:48,221 - DEBUG - https://huggingface.co:443 "HEAD /openai-community/gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:15:48,224 - DEBUG - Attempting to acquire lock 2658866294496 on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-10-30 13:15:48,225 - DEBUG - Lock 2658866294496 acquired on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-10-30 13:15:48,418 - DEBUG - https://huggingface.co:443 "GET /openai-community/gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 26
+2024-10-30 13:15:48,452 - DEBUG - Attempting to release lock 2658866294496 on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-10-30 13:15:48,453 - DEBUG - Lock 2658866294496 released on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2024-10-30 13:15:48,659 - DEBUG - https://huggingface.co:443 "HEAD /openai-community/gpt2/resolve/main/tokenizer.json HTTP/11" 200 0
+2024-10-30 13:15:48,665 - DEBUG - Attempting to acquire lock 2658866424320 on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-10-30 13:15:48,665 - DEBUG - Lock 2658866424320 acquired on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-10-30 13:15:48,865 - DEBUG - https://huggingface.co:443 "GET /openai-community/gpt2/resolve/main/tokenizer.json HTTP/11" 200 1355256
+2024-10-30 13:15:49,049 - DEBUG - Attempting to release lock 2658866424320 on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-10-30 13:15:49,050 - DEBUG - Lock 2658866424320 released on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2024-10-30 13:15:49,250 - DEBUG - https://huggingface.co:443 "HEAD /openai-community/gpt2/resolve/main/tokenizer.model HTTP/11" 404 0
+2024-10-30 13:15:49,450 - DEBUG - https://huggingface.co:443 "HEAD /openai-community/gpt2/resolve/main/added_tokens.json HTTP/11" 404 0
+2024-10-30 13:15:49,648 - DEBUG - https://huggingface.co:443 "HEAD /openai-community/gpt2/resolve/main/special_tokens_map.json HTTP/11" 404 0
+2024-10-30 13:15:49,843 - DEBUG - https://huggingface.co:443 "HEAD /openai-community/gpt2/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:15:49,844 - DEBUG - Attempting to acquire lock 2658866422928 on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-10-30 13:15:49,845 - DEBUG - Lock 2658866422928 acquired on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-10-30 13:15:50,056 - DEBUG - https://huggingface.co:443 "GET /openai-community/gpt2/resolve/main/config.json HTTP/11" 200 665
+2024-10-30 13:15:50,062 - DEBUG - Attempting to release lock 2658866422928 on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-10-30 13:15:50,062 - DEBUG - Lock 2658866422928 released on C:\Users\USER\.cache\huggingface\hub\.locks\models--openai-community--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2024-10-30 13:15:50,198 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:15:50,399 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:15:50,599 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:15:55,156 - INFO - Model initialized successfully.
+2024-10-30 13:15:55,943 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:15:55,944 - INFO - �� GPU ��: 1
+2024-10-30 13:15:55,944 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:15:55,944 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:15:55,944 - INFO - ���� GPU �޸� ��뷮: 4304323072 bytes
+2024-10-30 13:16:02,601 - ERROR - Error during training: CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.64 GiB is allocated by PyTorch, and 35.96 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:17:54,528 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:17:54,746 - DEBUG - https://huggingface.co:443 "HEAD /openai-community/gpt2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:17:54,868 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:17:55,070 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:17:55,275 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:25:50,448 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:25:50,666 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:25:50,965 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:25:51,162 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:25:51,375 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:25:54,578 - INFO - Model initialized successfully.
+2024-10-30 13:25:55,473 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:25:55,473 - INFO - �� GPU ��: 1
+2024-10-30 13:25:55,473 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:25:55,473 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:25:55,473 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:26:10,397 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 53.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:26:44,996 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:26:45,341 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:26:45,652 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:26:45,977 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:26:46,227 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:26:56,041 - INFO - Model initialized successfully.
+2024-10-30 13:26:57,094 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:26:57,094 - INFO - �� GPU ��: 1
+2024-10-30 13:26:57,094 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:26:57,094 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:26:57,094 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:27:03,339 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 19.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:27:16,894 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:27:17,214 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:27:17,544 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:27:17,787 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:27:17,984 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:27:23,355 - INFO - Model initialized successfully.
+2024-10-30 13:27:24,359 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:27:24,359 - INFO - �� GPU ��: 1
+2024-10-30 13:27:24,360 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:27:24,360 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:27:24,360 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:27:30,931 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 19.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:30:49,499 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:30:49,723 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:30:50,038 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:30:50,240 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:30:50,437 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:30:56,058 - INFO - Model initialized successfully.
+2024-10-30 13:30:56,962 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:30:56,963 - INFO - �� GPU ��: 1
+2024-10-30 13:30:56,963 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:30:56,963 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:30:56,963 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:31:09,976 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 35.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:31:23,417 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:31:23,634 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:31:23,945 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:31:24,147 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:31:24,351 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:31:34,697 - INFO - Model initialized successfully.
+2024-10-30 13:31:35,605 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:31:35,605 - INFO - �� GPU ��: 1
+2024-10-30 13:31:35,605 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:31:35,605 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:31:35,605 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:31:47,781 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 35.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-10-30 13:33:39,600 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:33:39,825 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:33:40,136 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:33:40,335 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:33:40,533 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:33:51,087 - INFO - Model initialized successfully.
+2024-10-30 13:33:52,037 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:33:52,037 - INFO - �� GPU ��: 1
+2024-10-30 13:33:52,037 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:33:52,037 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:33:52,037 - INFO - ���� GPU �޸� ��뷮: 4943290880 bytes
+2024-10-30 13:35:13,660 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-10-30 13:35:13,887 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-30 13:35:14,192 - INFO - Dataset and tokenizer initialized successfully.
+2024-10-30 13:35:14,387 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:35:14,595 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-3.2-1B/resolve/main/config.json HTTP/11" 200 0
+2024-10-30 13:35:17,776 - INFO - Model initialized successfully.
+2024-10-30 13:35:18,634 - INFO - GPU ��� ��: NVIDIA GeForce RTX 3060
+2024-10-30 13:35:18,634 - INFO - �� GPU ��: 1
+2024-10-30 13:35:18,634 - INFO - ���� GPU �ε���: 0
+2024-10-30 13:35:18,634 - INFO - ���� GPU �̸�: NVIDIA GeForce RTX 3060
+2024-10-30 13:35:18,634 - INFO - ���� GPU �޸� ��뷮: 4945379840 bytes
+2024-10-30 13:35:30,856 - ERROR - Error during training: CUDA out of memory. Tried to allocate 1004.00 MiB. GPU 0 has a total capacity of 12.00 GiB of which 0 bytes is free. Of the allocated memory 18.44 GiB is allocated by PyTorch, and 27.16 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
